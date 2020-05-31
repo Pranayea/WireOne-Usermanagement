@@ -1,0 +1,27 @@
+<%-- 
+    Document   : cDashboard
+    Created on : May 17, 2020, 9:35:23 AM
+    Author     : DELL
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Client Dashboard</title>
+    </head>
+    <body>
+        <%
+            if (session.getAttribute("username") == null) {
+                response.sendRedirect("login.jsp");
+            }
+            Object user = session.getAttribute("user");
+        %>
+        
+        <h1>Hello ${user}</h1>
+
+        <h1>Hello client</h1>
+
+    </body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: #6d6875;
+}
+
+a{
+    color: white;
+    padding: 7%;
+}
+
+.page-header{
+    height: 50px;
+    width: 150%;
+    border-bottom: solid #ffb4a2;
+    display: flex;
+}
+ .page-header .page-container{
+    margin: left;
+    width: 20%;
+ }
