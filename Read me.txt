@@ -1,0 +1,3 @@
+1. The Database file is in WOUsermanagement/src/DB_backup
+2. There are times that the system does not auto open in browser, So make sure glasshfish is running then
+ use link  "http://localhost:8080/WOUsermanagement/"    to use the system.
